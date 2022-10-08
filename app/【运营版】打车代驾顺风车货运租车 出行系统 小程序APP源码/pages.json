@@ -1,0 +1,337 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/home/dj-confirm",
+			"style": {
+				"navigationBarTitleText": "确认用车",
+				"navigationBarBackgroundColor": "#00C28E",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/home/detail",
+			"style": {
+				"navigationBarTitleText": "支付中",
+				"navigationBarBackgroundColor": "#00C28E",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/home/detailpay",
+			"style": {
+				"navigationBarTitleText": "支付中",
+				"navigationBarBackgroundColor": "#00C28E",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/home/dj-cancel",
+			"style": {
+				"navigationBarTitleText": "取消订单",
+				"navigationBarBackgroundColor": "#00C28E",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/home/cancel",
+			"style": {
+				"navigationBarTitleText": "取消订单",
+				"navigationBarBackgroundColor": "#00C28E",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/home/dj-other",
+			"style": {
+				"navigationBarTitleText": "找人叫代驾",
+				"navigationBarBackgroundColor": "#00C28E",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/my/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"backgroundColor": "rgba(255,255,255,0)",
+						"backButton": {
+							"background": "none"
+						}
+					}
+				}
+			}
+		}, {
+			"path": "pages/login/phone",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"backgroundColor": "rgba(255,255,255,0)"
+					}
+				}
+			}
+		}, {
+			"path": "pages/login/register",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"backgroundColor": "rgba(255,255,255,0)"
+					}
+				}
+			}
+		}, {
+			"path": "pages/login/forget-pwd",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"backgroundColor": "rgba(255,255,255,0)"
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/home/city",
+			"style": {
+				"navigationBarTitleText": "选择城市"
+			}
+		}, {
+			"path": "pages/my/order/dj-order",
+			"style": {
+				"navigationBarTitleText": "代驾单",
+				"navigationBarBackgroundColor": "#00C28E",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/my/set/index",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}, {
+			"path": "pages/my/set/phone-number",
+			"style": {
+				"navigationBarTitleText": "当前手机号"
+			}
+
+		}, {
+			"path": "pages/my/set/phone-change",
+			"style": {
+				"navigationBarTitleText": "更改手机号"
+			}
+
+		}, {
+			"path": "pages/my/IDcard",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+
+		}, {
+			"path": "pages/my/IDcard-success",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+
+		}, {
+			"path": "pages/my/complaints/index",
+			"style": {
+				"navigationBarTitleText": "投诉中心"
+			}
+
+		}, {
+			"path": "pages/my/complaints/lost",
+			"style": {
+				"navigationBarTitleText": "物品遗失"
+			}
+
+		}, {
+			"path": "pages/my/complaints/progress",
+			"style": {
+				"navigationBarTitleText": "处理进度查询",
+				"navigationBarBackgroundColor": "#00C28E",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/my/complaints/progress-detail",
+			"style": {
+				"navigationBarTitleText": "处理进度详情"
+			}
+
+		}, {
+			"path": "pages/my/details",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+
+		}, {
+			"path": "pages/home/security",
+			"style": {
+				"navigationBarTitleText": "安全中心"
+			}
+
+		}, {
+			"path": "pages/home/search",
+			"style": {
+				"navigationBarTitleText": "选择地址"
+			}
+
+		}, {
+			"path": "pages/home/person-add",
+			"style": {
+				"navigationBarTitleText": "添加紧急联系人"
+			}
+
+		}, {
+			"path": "pages/shunfeng/book-list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/shunfeng/confirm-book",
+			"style": {
+				"navigationBarTitleText": "预订座位",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/shunfeng/my-book",
+			"style": {
+				"navigationBarTitleText": "乘客预约",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/shunfeng/order-list",
+			"style": {
+				"navigationBarTitleText": "顺风车",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/shunfeng/order-detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/coupon/index",
+			"style": {
+				"navigationBarTitleText": "优惠券",
+				"navigationBarBackgroundColor": "#00C28E",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/coupon/list",
+			"style": {
+				"navigationBarTitleText": "优惠券",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/huoyun/charge",
+			"style": {
+				"navigationBarTitleText": "费用标准",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/huoyun/address",
+			"style": {
+				"navigationBarTitleText": "详细地址",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/huoyun/confirm-order",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/huoyun/other-demand",
+			"style": {
+				"navigationBarTitleText": "额外需求",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/huoyun/remark",
+			"style": {
+				"navigationBarTitleText": "订单备注",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/huoyun/pay",
+			"style": {
+				"navigationBarTitleText": "去支付",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/huoyun/order-detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false,
+				"backgroundColor": "#00C28E",
+				"navigationBarBackgroundColor": "#00C28E",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/huoyun/cancle-order",
+			"style": {
+				"navigationBarTitleText": "取消订单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/huoyun/refund-detail",
+			"style": {
+				"navigationBarTitleText": "退款详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/huoyun/order",
+			"style": {
+				"navigationBarTitleText": "货运单",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	}
+}
